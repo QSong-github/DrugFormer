@@ -59,7 +59,7 @@ def prepare():
     parser.add_argument('--ep_num', type=int, default=3, help='epoch number of training')
     parser.add_argument('--train_batch_size', type=int, default=32, help='')
     parser.add_argument('--test_batch_size', type=int, default=64, help='')
-    parser.add_argument('--data_path', type=str, default='./GSE207422_Tor_post_dt', help='')   # dataset_rebuild  /  xioana-data
+    parser.add_argument('--data_path', type=str, default='./GSE207422_Tor_post_dt', help='')   # newdt
     parser.add_argument('--device', type=str, default='cuda' if torch.cuda.is_available() else 'cpu', help='')
     #parser.add_argument('--device', type=str, default='cpu', help='')
 
