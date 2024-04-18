@@ -86,7 +86,7 @@ def run():
                     loss_sum = loss_sum + loss
                     acc = Accuracy_score(pred, labels)
                     f1 = F1_score(pred, labels)
-                    aur = AUROC_score(pred, labels)
+                    aur = AUROC_score(pred, labels)   # not for subdt
                     pre = Precision_score(pred, labels)
                     rcl = Recall_score(pred, labels)
                     aps = AP_score(pred, labels)
@@ -131,7 +131,7 @@ def run():
                         loss_sum = loss_sum + loss
                         acc = Accuracy_score(pred, labels)
                         f1 = F1_score(pred, labels)
-                        aur = AUROC_score(pred, labels)
+                        aur = AUROC_score(pred, labels)  # not for subdt
                         pre = Precision_score(pred, labels)
                         rcl = Recall_score(pred, labels)
                         aps = AP_score(pred, labels)
