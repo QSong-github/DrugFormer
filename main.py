@@ -12,7 +12,7 @@ def prepare():
     parser.add_argument('--ep_num', type=int, default=3, help='epoch number of training')
     parser.add_argument('--train_batch_size', type=int, default=12, help='')
     parser.add_argument('--test_batch_size', type=int, default=24, help='')
-    parser.add_argument('--data_path', type=str, default='./cell_dt', help='')
+    parser.add_argument('--data_path', type=str, default='./subdt', help='subdt is just for test, plz use cell_dt')  # cell_dt
     parser.add_argument('--device', type=str, default='cuda:2' if torch.cuda.is_available() else 'cpu', help='')
 
     parser.add_argument('--lr', type=int, default=0.0001, help='')
