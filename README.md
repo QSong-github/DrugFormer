@@ -9,7 +9,7 @@ This code is prepared for DrugFormer.
 
 ## Installation
 Download Antiformer:
-```[git clone https://github.com/wq2581/Antiformer](https://github.com/QSong-github/DrugFormer.git)```
+[git clone https://github.com/wq2581/Antiformer](https://github.com/QSong-github/DrugFormer.git)
 
 Installation Environment:
 ```pip install -r requirements.txt```
