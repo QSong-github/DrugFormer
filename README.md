@@ -1,7 +1,7 @@
 # DrugFormer
 
 
-This code is prepared for "AntiFormer: graph enhanced large language model for binding affinity prediction".
+This code is prepared for DrugFormer.
 
 ## Overview
 
@@ -9,30 +9,23 @@ This code is prepared for "AntiFormer: graph enhanced large language model for b
 
 ## Installation
 Download Antiformer:
-```git clone https://github.com/wq2581/Antiformer```
+```[git clone https://github.com/wq2581/Antiformer](https://github.com/QSong-github/DrugFormer.git)```
 
 Installation Environment:
 ```pip install -r requirements.txt```
 
-Our code is all based on python. In order to install dependencies please enter the project path ```./AntiFormer``` and activate your python environment.
 
 
 ## Running
 
-   The codes for dataset creating are stored in the ```./AntiFormer/data``` directory.
+   Here we provide a small datset sved in 'subdt' for testing. Please use the 'cell_dt' for training. And before running the code, please download the original data to generate the dataset.
    
-   (1) Run ```python data_download.py``` to download the required data.
+   (1) Run ```python gene_graph.py``` to get the gene graph.
    
-   (2) Run ```python data_process.py``` for frequency statistics. Of course, we also provide the results of frequency statistics saved as txt files in this directory.
+   (2) Run ```python dataset.py``` to get the datasets.
    
-   (3) Run ```python dataset_making.py``` to build the dataset.
+   (3) Run ```python main.py``` to get the results.
    
-   (4) Run ```python dt_rebuild.py``` to tokenize the input sequence and save it as a file of type Dataset saved in the ```./AntiFormer/dt``` path.
-  
-   We also provide partially processed data (2000 sequences) as demo, located under the ```./AntiFormer/subdt``` path.
-   
-   (5) Run ```python main.py``` to get the results.
 
-   However，if you have processed all the data, you can replace the ```./subdt``` path with your data path for training. And be careful to change the hyperparameters in the ```main.py``` to suit your hardware and target.
 
    
