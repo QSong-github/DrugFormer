@@ -100,7 +100,6 @@ def rebuilder(directory_path):
         dt['cell_label'] = labels_cell
 
         my_dataset = Dataset.from_dict(dt)
-        # 保存为文件
         my_dataset.save_to_disk(filename[:-4] + '_dt')
 
 
