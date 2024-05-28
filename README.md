@@ -8,7 +8,7 @@ This repository is prepared for DrugFormer.
 
 
 ## Installation
-Download Antiformer:
+Download DrugFormer:
 [git clone https://github.com/QSong-github/DrugFormer](https://github.com/QSong-github/DrugFormer.git)
 
 Installation Environment:
