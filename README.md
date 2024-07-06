@@ -1,7 +1,7 @@
 # DrugFormer
 
 
-This repository is prepared for DrugFormer.
+This repository is prepared for ''DrugFormer: graph-enhanced language model to predict drug sensitivity.''
 
 ## Overview
 
