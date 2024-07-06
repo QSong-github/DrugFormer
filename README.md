@@ -19,7 +19,7 @@ Install Environment:
 
 ## Running
 
-   Here we provide a small datset sved in 'subdt' for testing. Please use the 'cell_dt' for training. And before running the code, please download the original data from [google drive](https://drive.google.com/file/d/1D-mkFwoJzu7E__vJc3ahnFE4UVGYz4_Q/view?usp=sharing) and generate the dataset.
+   Here we provide a small datset sved in 'subdt' for testing. Please use the 'cell_dt' for training. And before running the code, please download the original data from [google drive](https://drive.google.com/file/d/16Tf6opBb8NJ8comha2kV9ohwXmoD7sFC/view?usp=drive_link) and generate the dataset. 
    
    (1) Run ```python gene_graph.py``` to get the knowledge graph.
    
