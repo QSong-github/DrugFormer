@@ -9,16 +9,17 @@ This repository is prepared for DrugFormer.
 
 ## Installation
 Download DrugFormer:
-[git clone https://github.com/QSong-github/DrugFormer](https://github.com/QSong-github/DrugFormer.git)
+```git clone https://github.com/QSong-github/DrugFormer```
 
-Installation Environment:
-```pip install -r requirements.txt```
+
+Install Environment:
+```pip install -r requirements.txt``` or ```conda env create -f environment.yml```
 
 
 
 ## Running
 
-   Here we provide a small datset sved in 'subdt' for testing. Please use the 'cell_dt' for training. And before running the code, please download the original data to generate the dataset.
+   Here we provide a small datset sved in 'subdt' for testing. Please use the 'cell_dt' for training. And before running the code, please download the original data from [google drive](https://drive.google.com/file/d/1D-mkFwoJzu7E__vJc3ahnFE4UVGYz4_Q/view?usp=sharing) and generate the dataset.
    
    (1) Run ```python gene_graph.py``` to get the knowledge graph.
    
