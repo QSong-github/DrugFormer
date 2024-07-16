@@ -65,10 +65,10 @@ class CellDSFormer(nn.Module):
 
 
         embed2 = self.Transformer2(fused_embed1)
-        embed3 = self.Transformer2(embed2)
-        embed4 = self.Transformer2(embed3)
-        embed5 = self.Transformer2(embed4)
-        embed6 = self.Transformer2(embed5)
+        embed3 = self.Transformer3(embed2)
+        embed4 = self.Transformer4(embed3)
+        embed5 = self.Transformer5(embed4)
+        embed6 = self.Transformer6(embed5)
         graphf2 = self.GAT2(graphf1, Gdata['edge_index'], Gdata['edge_weights'])
         seq_gf_pair2 = self.GFcandidate(seq, graphf2)
 
