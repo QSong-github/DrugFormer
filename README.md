@@ -28,5 +28,7 @@ Install Environment:
    (3) Run ```python main.py``` to get the prediction results.
    
 
+## Citation
 
+Please cite "Liu X, Wang Q, Zhou M, Wang Y, Wang X, Zhou X, Song Q. DrugFormer: Graph‐Enhanced Language Model to Predict Drug Sensitivity. Advanced Science. 2024 Oct;11(40):2405861."
    
